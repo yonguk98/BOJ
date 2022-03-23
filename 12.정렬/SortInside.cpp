@@ -15,7 +15,7 @@ int main() {
         arr[i] = input[i] - '0';
     }
 
-    //sort
+    //sort to descending order
     sort(arr,arr+size,greater<int>());
 
     //print
