@@ -1,3 +1,4 @@
 if(count == i){
-                cout << arr[i] <<' '<< arr[i] << '\n'; 
-            }
+            visited[k] = true;
+            k++;
+        }
