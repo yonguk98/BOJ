@@ -7,6 +7,7 @@ int arr[MAX] = {0, };
 bool visited[MAX] = {0, };
 
 void dfs(int count){
+    //print number of M in arr[]
     if(count == M){
         for(int i = 0; i < M; i++){
             cout << arr[i]+1 << ' ';
@@ -14,6 +15,7 @@ void dfs(int count){
         cout << '\n';
         return;
     }
+    //recursive loop to add count until M
     for(int i = 0; i < N; i++){
         if(!visited[i]){
             arr[count] = i;
